@@ -197,3 +197,12 @@ h1 {
     font-size: 28px;
     line-height: 44px;
 }
+
+.contact{
+  padding-top: 30px;
+}
+
+.icon{
+  font-size: 24px;
+  color: #333333;
+}

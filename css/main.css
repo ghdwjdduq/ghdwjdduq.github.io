@@ -27,7 +27,7 @@
     text-align: center;
   }
   
-  .spinner > div {
+.spinner > div {
     width: 18px;
     height: 18px;
     background-color: #333;
@@ -36,32 +36,32 @@
     display: inline-block;
     -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
     animation: sk-bouncedelay 1.4s infinite ease-in-out both;
-  }
+}
   
-  .spinner .bounce1 {
+.spinner .bounce1 {
     -webkit-animation-delay: -0.32s;
     animation-delay: -0.32s;
-  }
+}
   
-  .spinner .bounce2 {
+.spinner .bounce2 {
     -webkit-animation-delay: -0.16s;
     animation-delay: -0.16s;
-  }
+}
   
-  @-webkit-keyframes sk-bouncedelay {
+@-webkit-keyframes sk-bouncedelay {
     0%, 80%, 100% { -webkit-transform: scale(0) }
     40% { -webkit-transform: scale(1.0) }
-  }
+}
   
-  @keyframes sk-bouncedelay {
+@keyframes sk-bouncedelay {
     0%, 80%, 100% { 
       -webkit-transform: scale(0);
       transform: scale(0);
-    } 40% { 
+  } 40% { 
       -webkit-transform: scale(1.0);
       transform: scale(1.0);
-    }
   }
+}
 
 /* Nav Bar*/
 nav hr {
@@ -104,9 +104,6 @@ ul {
     margin-right: 56px;
     position: relative;
 }
-.menu li:last-child {
-    margin-right: 0px;
-}
 .menu li a {
     font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
@@ -121,6 +118,28 @@ ul {
     display: inline-block;
     line-height: 14px;
 }
+
+/* TopBar Fix */
+.nav-sticky {
+  position: fixed !important;
+  top: 0;
+}
+
+.nav-sticky hr {
+  display: none !important;
+}
+
+.top-bar.nav-sticky {
+  background: rgb(255, 255, 255, 0.9);
+}
+
+.top-bar.nav-sticky .nav-menu {
+  padding-top: 32px;
+}
+.top-bar.nav-sticky .menu li a{
+  padding-bottom: 32px;
+}
+
 
 
 
@@ -152,7 +171,7 @@ section{
   }
 
 #profile-img {
-    height:165px;
+    height:300px;
     width: auto;
     margin: 10px;
     border: 5px solid #f2f2f2;

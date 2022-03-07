@@ -168,8 +168,8 @@ section{
 }
 .about-details img {
     display: inline-block;
-    /* margin-left: auto;
-    margin-right: auto; */
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 32px;
     border:5px solid #ffffff;
     border-radius: 50%;

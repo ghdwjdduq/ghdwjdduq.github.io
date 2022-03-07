@@ -156,6 +156,10 @@ section{
     position: relative;
     overflow: hidden;
 }
+.article-single{
+  background: #ffffff !important;
+  padding-bottom: 120px;
+}
 
 .about-details {
     text-align: center;
@@ -164,6 +168,8 @@ section{
 }
 .about-details img {
     display: inline-block;
+    /* margin-left: auto;
+    margin-right: auto; */
     margin-bottom: 32px;
     border:5px solid #ffffff;
     border-radius: 50%;

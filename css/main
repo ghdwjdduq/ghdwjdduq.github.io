@@ -1,3 +1,17 @@
+/* Loader */
+.loader{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 9999;
+    text-align: center;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+    opacity: 1;
+}
+
 /* spinner */
 .spinner {
     width: 40px;
@@ -50,5 +64,111 @@
   }
 
 /* Nav Bar*/
+nav hr {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    position: relative;
+    bottom: 2px;
+  }
+
+.top-bar {
+  position: absolute;
+  background: #fff;
+  width: 100%;
+  z-index: 10;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  transition: all .5s ease;
+  line-height: 0;
+  top: 0;
+}
+
+.top-bar .menu li a {
+    color: #777777;
+    padding-bottom: 0px;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+.menu {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    top: 2px;
+}
+.menu li {
+    float: left;
+    margin-right: 56px;
+    position: relative;
+}
+.menu li:last-child {
+    margin-right: 0px;
+}
+.menu li a {
+    font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #777777;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+    padding-bottom: 40px;
+    display: inline-block;
+    line-height: 14px;
+}
+
+
+
+/* Mobile Overlay TODO */
+.overlay-bar {
+    background: none;
+  }
+
 
 /* About Section*/
+section{
+    padding-top: 80px;
+    padding-bottom: 89px;
+    position: relative;
+    overflow: hidden;
+}
+
+.about-details {
+    text-align: center;
+    padding: 40px 0px;
+    border-bottom: 0px solid #ddd;
+}
+.about-details img {
+    display: inline-block;
+    margin-bottom: 32px;
+    border:5px solid #ffffff;
+    border-radius: 50%;
+    border-color: rgba(255,255,255,.6);
+  }
+
+#profile-img {
+    height:165px;
+    width: auto;
+    margin: 10px;
+    border: 5px solid #f2f2f2;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+}
+
+h1 {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: #333333;
+  margin: 0px;
+}
+
+h1 {
+    font-size: 28px;
+    line-height: 44px;
+}

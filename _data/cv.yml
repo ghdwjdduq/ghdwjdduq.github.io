@@ -1,0 +1,96 @@
+cv:
+  name: Jeongyeob Hong
+  label: Ph.D. Student, Computational Linguistics
+  email: jhong2@macalester.edu
+  location: Seattle, Washington
+  image: ""
+  summary: Ph.D. student in computational linguistics at the University of Washington. Research interests include natural language generation, semantic representation, ethics in AI, linguistic bias, and multilingual NLP.
+
+  social_networks:
+    - network: GitHub
+      username: ghdwjdduq
+    - network: LinkedIn
+      username: jeongyeob-hong-5a9b38153
+
+  sections:
+    Education:
+      - institution: University of Washington
+        location: Seattle, Washington
+        url: https://www.washington.edu/
+        area: Computational Linguistics
+        studyType: Ph.D.
+
+      - institution: Macalester College
+        location: St. Paul, Minnesota
+        url: https://www.macalester.edu/
+        area: Linguistics and Computer Science
+        studyType: B.A.
+        start_date: 2016
+        highlights:
+          - "Advisors: Christina Esposito and Susan Fox."
+
+    Experience:
+      - company: University of Minnesota
+        position: Research Intern
+        location: Minneapolis, Minnesota
+        start_date: 2020-06
+        end_date: 2020-09
+        summary: Conversational Agent for Daily Living Assessment Coaching (CADLAC). Mentor: Serguei Pakhomov.
+        highlights:
+          - Built a medical ontology for a multimodal chatbot that simulates people with different levels of ability in activities of daily living.
+
+      - company: Yonsei Institute of Language and Information Studies
+        position: Research Intern
+        location: Seoul, South Korea
+        start_date: 2020-03
+        end_date: 2020-09
+        summary: Korean semantic annotation. Mentor: Hansaem Kim.
+        highlights:
+          - Annotated sentences and wrote guidelines for a Korean Abstract Meaning Representation corpus.
+          - Built a zero-anaphora corpus in Korean.
+
+      - company: Macalester College
+        position: Teaching Assistant, COMP 128
+        location: St. Paul, Minnesota
+        start_date: 2022-01
+        summary: Object-Oriented Programming.
+        highlights:
+          - Led study sessions on data structures and object-oriented programming in Java.
+
+      - company: Macalester College
+        position: Supervising Writing Tutor
+        location: St. Paul, Minnesota
+        start_date: 2020-09
+        summary: Tutored students across disciplines on argument and organization, and supervised other student tutors.
+
+      - company: Macalester College
+        position: Writing Tutor
+        location: St. Paul, Minnesota
+        start_date: 2017-09
+        end_date: 2018-05
+        summary: Gave written and spoken feedback on undergraduate writing.
+
+    Skills:
+      - name: Programming
+        keywords: "Python, R, PyTorch, TensorFlow, Java, SQL, Git"
+
+      - name: Languages and tools
+        keywords: "LaTeX, Praat, HTML, CSS, JavaScript"
+
+    Languages:
+      - name: Korean
+        summary: Native
+      - name: English
+        summary: Fluent
+      - name: Spanish
+        summary: Basic
+      - name: Latin
+        summary: Basic
+      - name: Jeju
+        summary: Basic
+
+    Interests:
+      - name: Research
+        keywords: "Natural language generation, semantic representation, linguistic bias, multilingual NLP"
+      - name: Other
+        keywords: "Fiction writing, reading"

@@ -1,121 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Jeongyeob Hong</title>
-        <meta name="author" content="Jeongyeob Hong" >
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link rel="icon" type="image/png" href="imgages/favicon.png">
-        <link rel="stylesheet" type="text/css" href="css/main.css" media="all">
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="all">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects · Jeongyeob Hong</title>
+  <meta name="author" content="Jeongyeob Hong">
+  <meta name="description" content="Research and coursework by Jeongyeob Hong in natural language processing and linguistics.">
+  <link rel="icon" href="images/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=Source+Serif+4:opsz,wght@8..60,560;8..60,650&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <div>
+        <p class="name"><a href="index.html">Jeongyeob Hong</a></p>
+        <p class="role">Linguistics and Computer Science, Macalester College</p>
+      </div>
+      <nav aria-label="Primary">
+        <a href="index.html">About</a>
+        <a href="project.html" aria-current="page">Projects</a>
+        <a href="file/Jeongyeob_Hong_CV.pdf">CV</a>
+      </nav>
+    </div>
+  </header>
 
+  <main id="content">
+    <div class="wrap">
+      <h2>Projects</h2>
+      <p class="lede">Selected research, coursework, and writing in natural language processing and linguistics.</p>
 
-    <head>
+      <section class="group" aria-labelledby="nlp-heading">
+        <h2 id="nlp-heading">Natural language processing</h2>
 
-    <body>
-        <div class="nav-container">
-            <nav class="top-bar overlay-bar offscreen-menu"
-                <div class="container">
-                    <div class="row nav-menu clearfix">
-                        <div class="col-md-1 col-sm-1 logo>"> <!--*TODO large screens-->
-                            <a href="#">JH</a>
-                        </div>
+        <article class="entry" id="cadlac">
+          <h3>Conversational Agent for Daily Living Assessment Coaching</h3>
+          <p class="meta">University of Minnesota · 2020 · Mentor: Serguei Pakhomov</p>
+          <p>Built a medical ontology for a multimodal chatbot that simulates people with different levels of ability in activities of daily living. The agent is used to train professional assessors who interview people about daily functioning.</p>
+          <p class="links"><a href="https://aclanthology.org/2021.eacl-demos.38/">System description (Finzel et al., EACL 2021)</a></p>
+        </article>
 
-                        <div class="col-md-11 col-sm-10 columns">
-                            <ul class="menu" style="padding-top: 5px; padding-left: 35px;">
-                                <li>
-                                    <a href="#">Projects</a>                            
-                                </li>
-                                <li>
-                                    <a href="file/Jeongyeob_Hong_CV.pdf">CV</a>                            
-                                </li>
-                                <!--Later Add Publications-->    
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </nav>    
-        </div>  
+        <article class="entry" id="amr">
+          <h3>Korean Abstract Meaning Representation</h3>
+          <p class="meta">Yonsei Institute of Language and Information Studies · 2020 · Mentor: Hansaem Kim</p>
+          <p>Annotated sentences and wrote guidelines for a Korean Abstract Meaning Representation corpus, and built a zero-anaphora corpus in Korean.</p>
+          <p class="links">
+            <a href="https://github.com/ghdwjdduq/korean-amr-corpus">Code</a>
+            ·
+            <a href="https://aclanthology.org/2020.dmr-1.3/">Corpus paper (Choe et al., DMR 2020)</a>
+          </p>
+        </article>
 
-        <section class="no-pad-bottom projects-gallery">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 text-center">
-                  <h1>My Projects</h1><br>
-                  <p class="lead">
-                    As an aspiring NLP researcher, I've done and am working on multiple NLP & Deep learning projects. My main area is text generation and bias-free NLP. I also have some language oriented projects as well! 
-                  </p>
-                </div>
-              </div>
-            </div>
+        <article class="entry" id="vaccine">
+          <h3>Intent classification of COVID-19 anti-vaccination tweets</h3>
+          <p class="meta">COMP 484, Macalester College · Fall 2021 · Instructor: Susan Fox</p>
+          <p>A group course project on fine-grained intent in tweets about COVID-19 vaccines. We annotated tweets into government conspiracy, medical freedom, and medical risk, then fine-tuned DistilBERT. The write-up reports about 75% accuracy on the annotated set.</p>
+          <p class="links">
+            <a href="https://github.com/ghdwjdduq/Sentimental-Analysis-on-Anti-Vaccine-Tweets">Code</a>
+            ·
+            <a href="file/Work%20Sample%20CS.pdf">Paper</a>
+          </p>
+        </article>
 
-            <div class="projects-wrapper clearfix">
-                <div class="container">
-                  <div class="row">
-                    <ul class="filters">
-                      <li data-filter="*" class="active">
-                        <span>All</span>
-                      </li>
-                      <li data-filter=".NLP">
-                        <span>NLP</span>
-                      </li>
-                      <li data-filter=".Linguistics">
-                        <span>Linguistics</span>
-                      </li>
-                      <li data-filter=".Affiliated">
-                        <span>Affiliated</span>
-                      </li>
-                      <li data-filter=".SoftDev">
-                        <span>SoftDev</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-            
-                <div class="container clearfix" style="width:100%; padding: 0;">
-                    <div class="projects-container" >
-        
-                      <!-- individual projects -->
-                      <div class="col-md-4 col-sm-6 col-xs-12 no-pad project NLP image-holder">
-                        <div class="background-image-holder">
-                          <img class="background-image" alt="Background Image" src="images/">
-                        </div>
-                        <div class="hover-state">
-                          <div class="align-vertical">
-                            <h1 class="text-dark"><strong>Sentimental Analysis on Anti-Covid Vaccine Tweets</strong></h1>
-                            <p class="text-dark">
-                              Sentimental Analysis on Anti-Covid Vaccine Tweets
-                            </p>
-                            <a href="https://github.com/ghdwjdduq/Sentimental-Analysis-on-Anti-Vaccine-Tweets" target="_blank" class="btn btn-primary btn-grey">Code</a>
-                          </div>
-                        </div>
-                      </div>
+        <article class="entry" id="shakespeare">
+          <h3>Shakespeare authorship</h3>
+          <p class="meta">Coursework</p>
+          <p>An n-gram and NLTK analysis of the question of who wrote the works attributed to Shakespeare.</p>
+          <p class="links"><a href="https://github.com/ghdwjdduq/Shakespeare-Authorship-Coalition">Code</a></p>
+        </article>
+      </section>
 
-                      <!-- individual projects -->
-                      <div class="col-md-4 col-sm-6 col-xs-12 no-pad project NLP image-holder">
-                        <div class="background-image-holder">
-                          <img class="background-image" alt="Background Image" src="images/">
-                        </div>
-                        <div class="hover-state">
-                          <div class="align-vertical">
-                            <h1 class="text-dark"><strong>Sentimental Analysis on Anti-Covid Vaccine Tweets</strong></h1>
-                            <p class="text-dark">
-                              Sentimental Analysis on Anti-Covid Vaccine Tweets
-                            </p>
-                            <a href="" target="_blank" class="btn btn-primary btn-grey">Code</a>
-                          </div>
-                        </div>
-                      </div>
-                            
+      <section class="group" aria-labelledby="linguistics-heading">
+        <h2 id="linguistics-heading">Linguistics</h2>
 
+        <article class="entry" id="amharic">
+          <h3>A Sketch Grammar of Amharic</h3>
+          <p class="meta">Field Methods · Spring 2021 · Consultant: Eyerusalem Abebaw</p>
+          <p>A collaborative sketch grammar of Amharic, written with the Field Methods class.</p>
+          <p class="links"><a href="file/FM_S21_-_Sketch_Grammar_of_Amharic.pdf">PDF</a></p>
+        </article>
+      </section>
+    </div>
+  </main>
 
-        <footer class="details" id="fixed-footer" style="text-align: center;">
-        </footer>
-    
-    <script src="https://use.fontawesome.com/e04e411cbc.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
-
-    </body>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Jeongyeob Hong · <a href="mailto:jhong2@macalester.edu">jhong2@macalester.edu</a></p>
+    </div>
+  </footer>
+</body>
 </html>

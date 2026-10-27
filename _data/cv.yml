@@ -35,7 +35,7 @@ cv:
         location: Minneapolis, Minnesota
         start_date: 2020-06
         end_date: 2020-09
-        summary: Conversational Agent for Daily Living Assessment Coaching (CADLAC). Mentor: Serguei Pakhomov.
+        summary: "Conversational Agent for Daily Living Assessment Coaching (CADLAC). Mentor: Serguei Pakhomov."
         highlights:
           - Built a medical ontology for a multimodal chatbot that simulates people with different levels of ability in activities of daily living.
 
@@ -44,7 +44,7 @@ cv:
         location: Seoul, South Korea
         start_date: 2020-03
         end_date: 2020-09
-        summary: Korean semantic annotation. Mentor: Hansaem Kim.
+        summary: "Korean semantic annotation. Mentor: Hansaem Kim."
         highlights:
           - Annotated sentences and wrote guidelines for a Korean Abstract Meaning Representation corpus.
           - Built a zero-anaphora corpus in Korean.
